@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ### Added
+<<<<<<< HEAD
+=======
+- L2CAP: provide access to number of available credits in CBM/ECBM
+- HFP HF: support Apple Accessory information with:
+  - hfp_hf_apple_set_identification
+  - hfp_hf_apple_set_battery_level
+  - hfp_hf_apple_set_docked_state
+- HFP AG: report Apple Accessory information, battery level and docked state
+- PBAP Client: allow to set start offset and max list count for pull phonebook operation
+- PBAP Client: support multiple parallel connections
+- HID Parser: introduce HID Descriptor and HID Descriptor Usage iterators
+- HCI Dump Dispatch: allow to use multiple HCI Dump implementations
+ 
+>>>>>>> 60a1ee1b3 (l2cap: provide access to number of available credits in cbm/ecbm)
 ### Fixed
 - HFP: use 'don't care' to accept SCO connections, fixes issue on ESP32
 - HFP: fix LC3-WB init
