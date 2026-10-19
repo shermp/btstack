@@ -14,14 +14,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - L2CAP: reject MTU smaller than 48 bytes for basic channels
-<<<<<<< HEAD
-=======
-- L2CAP: limit LE channel identifiers to 0x0040-0x007f
-- RFCOMM: only deliver RFCOMM data with size > 0
-- RFCOMM: validate incoming frames and send parameters, and release channels that fail setup
-- SDP: validate client and server data-element parsing, continuation state, and query parameters
-- SDP Server: reject invalid MaximumAttributeByteCount values
->>>>>>> 598d6fc48 (l2cap: limit LE channel identifiers to 0x0040-0x007f)
 - SM: fix BR/EDR->LE CTKD overwrite of BR/EDR link key
 - SM: fix BR/EDR->LE CTKD check for existing LTK
 - A2DP: ignore unexpected responses, keep state for Delay Report response
